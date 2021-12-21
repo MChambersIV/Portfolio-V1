@@ -3,19 +3,27 @@ body {
     background-color: rgb(46, 44, 61);
 }
 h1 {
-    font-size: 60px;
+    font-size: 55px;
     text-align: left;
     
 }
 .nav {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background-color: wheat;
+   
     
-    flex-direction: row;
-    align-items: center;
+
+
+}
+.navchild li {
+    z-index: 100;
+    display: inline-block;
     font-size: 30px;
     font-weight: 540;
-    justify-content: center;
     background-color: wheat;
     color: rgb(46, 44, 61);
-    margin: 0;
+    margin: 0 0 0 10px;
+    border-right: rgb(46, 44, 61), 3px;
 }
