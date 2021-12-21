@@ -1,0 +1,21 @@
+body {
+    color: wheat;
+    background-color: rgb(46, 44, 61);
+}
+h1 {
+    font-size: 60px;
+    text-align: left;
+    
+}
+.nav {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 540;
+    justify-content: center;
+    background-color: wheat;
+    color: rgb(46, 44, 61);
+    margin: 0;
+}
