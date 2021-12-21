@@ -7,6 +7,13 @@ h1 {
     text-align: left;
     
 }
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+}
+
 .nav {
     display: flex;
     flex-flow: row wrap;
@@ -24,6 +31,13 @@ h1 {
     font-weight: 540;
     background-color: wheat;
     color: rgb(46, 44, 61);
-    margin: 0 0 0 10px;
+    margin: 10px 0 10px 10px;
     border-right: rgb(46, 44, 61), 3px;
+}
+
+a {
+    background-color: wheat;
+    color: rgb(46, 44, 61);
+    margin: 0;
+    border: 0;
 }
