@@ -36,8 +36,15 @@ h2 {
 }
 
 a {
+    text-decoration: none;
     background-color: wheat;
     color: rgb(46, 44, 61);
     margin: 0;
     border: 0;
+}
+
+img {
+    display: flex;
+    border: 20px;
+    padding: 20px;
 }
